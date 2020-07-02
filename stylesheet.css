@@ -1,0 +1,551 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+header{
+  width:100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  color : white;
+  position:fixed;
+  top:0;
+  z-index:10;
+}
+
+header a{
+	color: white;
+}
+
+.header-right{
+  float:right;
+  font-size:20px;
+}
+
+.list-awal{
+  list-style: none;
+  float :left;
+  padding : 10px 10px;
+}
+
+.list-awal a:hover{
+  opacity : 0.8;
+}
+
+.login {
+  list-style: none;
+  float :left;
+  padding : 7px 10px;
+}
+
+.btn-login{
+  float:right;
+  margin-right:20px;
+  padding: 5px 24px;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 10px;
+  background-color:white;
+}
+
+.btn-login a{
+	color: black;
+}
+
+.btn-login:hover{
+  opacity:1;
+}
+
+.header-left{
+  padding: 20px 30px;
+  float:left;
+  font-family: "Pangolin";
+  font-size:40px;
+}
+
+.menu-bar{
+	display: none;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 130px 0 100px 0;
+  background-image: url(https://cutewallpaper.org/21/night-city-wallpaper-1920x1080/mk52-city-night-dark-skyline-architecture-river-wallpaper.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+  opacity: 2;
+}
+
+.top-wrapper h1 {
+  font-size: 70px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  font-family: 'Amatic SC';
+}
+.top-wrapper h2 {
+  font-size: 40px;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+  font-family: 'Mali';
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.konsul {
+  background-color: #ff8c69;
+}
+
+.btn {
+  font-size:20px;
+  padding: 12px 24px;
+  font-family:"calibri";
+  letter-spacing: 2px;
+  color: white;
+  display: inline-block;
+  border-radius: 12px;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0 7px #FF3333;
+  opacity : 0.9;
+}
+
+.btn:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+.fab {
+  margin-right: 5px;
+}
+
+footer{
+  text-align:center;
+  height:250px;
+  background-color:black;
+  color:white;
+  clear: both;
+}
+
+.baris-apaini li{
+  display:inline;
+  list-style:none;
+  padding:10px 10px;
+}
+
+.btn-footer{
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.btn-footer:hover{
+  opacity:1;
+}
+
+.facebook {
+  background-color: #3b5998;
+}
+
+.twitter {
+  background-color: #55acee;
+  margin-right: 10px;
+}
+
+.copyright{
+  padding-top:20px;
+
+}
+
+.logo-lagi{
+  padding-top:30px;
+  padding-bottom:20px;
+  font-family:"Pangolin";
+  font-size:20px;
+}
+
+.medsos-smartphone {
+	display: none;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+/* Content Style*/
+
+.mc1{
+  text-align: center;
+  font-family: 'Mali';
+}
+
+.message-content{
+  margin: 70px 0px;
+}
+
+.konten-message {
+  margin : 0 auto;
+  display: flex;
+  height : fit-content;
+  padding : 55px;
+  flex-wrap : wrap;
+  width: 100%;
+}
+
+.message-content2{
+  height: 1400px;
+}
+
+.message-content3{
+  height: 120px;
+}
+
+.kiri1{
+  width:50%;
+  background-color:white;
+  float:left;
+  font-family:"calibri";
+  
+}
+
+.kiri1 p{
+  font-family: "Mali";
+  text-align: left;
+}
+
+.kanan1{
+  width:50%;
+  background-color:white;
+  float:right;
+  text-align: center;
+}
+
+.kanan1.responsif {
+	display: none;
+}
+
+.kanan2{
+  width:50%;
+  background-color:white;
+  float:right;
+  text-align: right;
+  font-family: "calibri";
+}
+
+.kanan2 p{
+  font-family: "Mali";
+  text-align: right;
+}
+
+.button {
+  border-radius: 15px;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 2px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button5 {
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+}
+
+.button5:hover {
+  background-color: #555555;
+  color: white;
+}
+
+.contents{
+  height : 100px;
+  margin-top : 10px;
+  padding : 50px 40px;
+}
+
+.contents h3{
+  text-align: center;
+  font-family: "calibri";
+}
+
+td{
+  text-align: center;
+  font-family: "calibri";
+  font-size: 16px;
+  margin-bottom : 3px;
+}
+
+.button1 {
+  border: none;
+  color: white;
+  padding: 200px 80px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  float: left;
+  letter-spacing: 1px;
+}
+
+.button52 {
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+}
+
+.button52:hover {
+  background-color: #555555;
+  color: white;
+}
+
+.btn2 {
+  background-color: grey;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.btnn:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+p{
+   margin-bottom :40px;
+   letter-spacing : 1px;
+}
+
+.tul{
+  text-align: center;
+  font-size: 15px;
+  font-family: "calibri";
+  letter-spacing : 1px;
+}
+
+.gambar{
+  width: 50%;
+}
+
+.tulis{
+  color: black;
+}
+
+/*main isi konten*/
+.isi {
+  margin: 0 auto;
+  background-color: #f5f5f5;
+  font-family: 'Mali';
+}
+
+.isi-judul{
+  width: 100%;
+  background-color: #f5f5f5;
+  margin: 0px;
+  padding: 50px 0px 0px 0px;
+}
+
+.isi h2{
+  text-align: center;
+  margin: 0px;
+}
+
+.isi form{
+  text-align: left;
+}
+
+.isi-kontak {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.isi-left{
+  float:left;
+  background-color: #f5f5f5;
+  display: block;
+  width: 55%;
+  padding: 24px 12px 24px 8%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: #333333;
+  height: 500px;
+}
+
+.isi-right{
+  float:right;
+  display: block;
+  width: 45%;
+  padding: 24px 8% 24px 30px;
+  background-color: #f5f5f5;
+  font-family: 'Open Sans', sans-serif;
+  color: #333333;
+  font-size: 14px;
+  height: 300px;
+}
+
+.isi-hr{
+  padding: 10px 0px 24px 0px;
+  background-color: #f5f5f5;
+}
+
+.garis-merah{
+  background-color: red;
+  width: 4%;
+  height: 5px;
+  text-align:center;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.col-25 {
+  float: left;
+  width: 20%;
+  margin-top: 10px;
+}
+
+.col-75 {
+  float: left;
+  width: 80%;
+  margin-top: 10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.isi-btn{
+  width: 150px;
+  height: 40px;
+  font-size: 15px;
+  border-width: 0;
+  background-color: #ff8c69;
+  display: inline-block;
+  padding: 10px 25px;
+  cursor: pointer;
+  text-align: center;
+  box-shadow: 0 7px #FF3333;
+  letter-spacing: 2px;
+  outline: none;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+}
+
+.isi-btn:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+  border: 0px;
+}
+
+.isi-right h3{
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0px 0px;
+}
+
+.isi-right p{
+  padding-top: 0px;
+}
+
+.lesson-wrapper {
+  padding-top: 50px;
+  padding-bottom: 40px;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+}
+
+.lessons {
+	margin-top: 80px;
+	display: flex;
+  	flex-wrap: wrap;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+  /* border: 1px solid grey; */
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon img {
+	width: 45%;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  color: black;
+  font-weight: bold;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 70px;
+  font-size: 15px;
+  color: black;
+  height: 150px;
+  font-family: "calibri";
+}

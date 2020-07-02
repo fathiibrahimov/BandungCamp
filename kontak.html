@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BandungCamp</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="responsive.css">
+    <script src="https://kit.fontawesome.com/88ee646ca2.js" crossorigin="anonymous"></script>
+    <link href='https://fonts.googleapis.com/css?family=Amatic SC' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Mali' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Pangolin' rel='stylesheet'>
+  </head>
+
+  <body>
+    <!-- bagian header  -->
+  <header>
+    <div class="topnav" id="myTopnav">
+      <div class="header-left">BandungCamp</div>
+      <div class="header-right">
+          <ul>
+            <li class="list-awal">
+              <a href="index.html"> Beranda </a>
+            </li>
+            <li class="list-awal">
+              <a href="produk.html"> Produk </a>
+            </li>
+            <li class="list-awal">
+              <a href="kontak.html"> Kontak </a> 
+            </li>
+            <li class="login">
+              <div class="btn-login">
+                <a href="#"> Masuk </a>
+              </div>
+            </li>
+          </ul>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+      </div>    
+    </div>
+  </header>
+  <!--   -->
+  <!-- bagian isi content -->
+    <div class="isi" style="padding-top: 100px">
+      <div class="isi-judul">
+        <h2>Kontak</h2>
+      </div>
+
+      <div class="isi-hr">
+        <center><hr class="garis-merah"></center>
+      </div>
+
+      <div class="isi-left">
+        <form>
+          <p>Mau buat website? Mau konsultasi? Apapun itu, yuk kontak BandungCamp!</p>
+          <div class="row">
+            <div class="col-25">
+              <label for="name">Name *</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="name" name="name">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="email">E-mail *</label>
+            </div>
+            <div class="col-75">
+              <input type="text" name="email">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="phone">Phone *</label>
+            </div>
+            <div class="col-75">
+              <input type="text" name="phone">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="message">Message *</label>
+            </div>
+            <div class="col-75">
+              <textarea name="Message" style="height: 150px;"></textarea>
+            </div>
+          </div>
+
+          <div class="row benar">
+            <div class="col-25">
+              &nbsp;
+            </div>
+            <div class="col-75">
+              <input type="submit" value="Kirim" class="isi-btn">
+            </div>
+
+          </div>
+
+          </div>
+        </form>
+      </div>
+
+      <div class="isi-right">
+        <img src="cs.png">
+        <h3>24/7 Costumer Care</h3>
+        <p>Customer care BandungCamp siap melayani kamu setiap hari selama 24 jam melalui livechat.</p>
+      </div>
+    </div>
+    <!-- selesai isi content -->
+  <!-- bagian footer  -->
+  <footer>
+    <div class="logo-lagi">BandungCamp</div>
+    <div class="baris-apaini">
+      <ul>
+        <li>Beranda</li>
+        <li>Produk</li>
+        <li>Konfirmasi</li>
+        <li>Waralaba</li>
+        <li>Kontak</li>
+        <li>Member</li>
+        <li>Rekrutmen</li>
+      </ul>
+    </div>
+    <div class="medsos">
+      <a class="btn-footer twitter" href="#"><span class="fab fa-twitter"></span>Twitter</a>
+      <a class="btn-footer facebook" href="#"><span class="fab fa-facebook"></span>Facebook</a>
+    </div>
+    <div class="medsos-smartphone">
+      <a class="btn-footer twitter" href="#"><span class="fab fa-twitter"></span></a>
+      <a class="btn-footer facebook" href="#"><span class="fab fa-facebook"></span></a>
+    </div>
+    <div class="copyright">© 2020 - 2090 BandungCamp. Jasa Pembuatan Website.</div>
+  </footer>
+     <!-- -->
+  </body>
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+  </body>
+</html>

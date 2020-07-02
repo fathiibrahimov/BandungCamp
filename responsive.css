@@ -1,0 +1,317 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  .header-left {
+    font-size : 40px;
+  }
+
+  .top-wrapper {
+    padding: 100px 0px;
+  }
+
+  .top-wrapper h1{
+    font-size : 50px
+  }
+
+  .top-wrapper h2{
+    font-size : 30px;
+  }
+
+  .isi-right img{
+  	width: 70%;
+  }
+
+  	.lesson-wrapper{
+		width: 100%;
+	}
+
+	.lesson {
+	  float: none;
+	  width: 33%;
+	}
+
+	.text-contents {
+	  width: 90%;
+	  height: 120px;
+	}
+
+	.portofolio-content h3{
+	  font-size : 16px;
+	  padding : 10px 20px;
+	}
+
+	.kanan1 img{
+		width: 50%;
+		padding-top: 60px;
+	}
+
+	.isi-right img{
+		width: 50%;
+	}
+
+}
+
+/*max 900*/
+@media all and (max-width: 900px) {
+  .header-left {
+    font-size : 35px;
+  }
+
+  .top-wrapper {
+    padding: 90px 0px;
+  }
+
+  .top-wrapper h1{
+    font-size : 43px
+  }
+
+  .top-wrapper h2{
+    font-size : 25px;
+  }
+}
+
+/*max 750*/
+@media all and (max-width: 750px) {
+  .header-left {
+    font-size : 27px;
+  }
+
+  .top-wrapper {
+    padding: 90px 0px;
+  }
+
+  .top-wrapper h1{
+    font-size : 35px
+  }
+
+  .top-wrapper h2{
+    font-size : 20px;
+  }
+
+  .isi-right img{
+  	width: 50%;
+  }
+
+  	.lesson-wrapper{
+		width: 100%;
+	}
+
+	.lesson {
+	  float: none;
+	  width: 50%;
+	}
+
+	.text-contents {
+	  width: 80%;
+	  height: 110px;
+	}
+  
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .topnav li {
+  	display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+    color: grey;
+    font-size: 20px;
+    margin-right : 20px;
+    padding : 5px 9px 2px 14px;
+    border : 2px solid white;
+    background-color : inherit;
+  }
+
+  .topnav.responsive {
+  	position: relative;
+  }
+  
+  .topnav.responsive a.icon{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color : rgba(255,255,255, 0.9);
+  	color : black;
+  	border : 2px solid grey;
+  }
+
+  .topnav.responsive li {
+    display: block;
+    text-align: center;
+    padding : 4px 40px 20px 0px;
+    width : 100%;
+  }
+
+  .topnav.responsive .btn-login{
+    width : 100%;
+  	margin: 0 auto;
+  }
+
+  .topnav.responsive .header-right {
+    float :none;
+  }
+
+  .topnav.responsive .header-left {
+    margin-top : -20px;
+  }
+
+  .btn {
+    width: 100%;
+    font-size: 16px;
+    padding : 10px 24px;
+    margin-top : 30px;
+  }
+
+  .top-wrapper {
+    padding: 75px 0px ;
+  }
+   
+  .top-wrapper h1 {
+    font-size: 30px;
+  }
+
+  .top-wrapper h2 {
+    font-size: 14px;
+    line-height : 18px;
+  }
+  
+  .header-left {
+    font-size : 24px;
+  }
+
+  .medsos-smartphone {
+    display :block;
+  }
+
+  .medsos {
+    display : none;
+  }
+
+  .btn-footer {
+    padding : 10px 10px 10px 15px;
+  }
+
+  footer {
+    height : fit-content;
+    padding:0px 10px 30px 10px;
+    font-size : 14px;
+  }
+
+  .baris-apaini li{
+    display : inline-block;
+  }
+
+  .baris-apaini ul {
+    padding-inline-start : 0px;
+  }
+
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+
+.konten-message img{
+  width : 50%;
+}
+
+.konten-message h1{
+  font-size:25px;
+}
+
+.konten-message p{
+  font-size : 12px;
+}
+
+.mc1{
+  font-size:20px;
+}
+
+.garis-merah {
+  width : 35px;
+}
+
+.isi-judul h2{
+  font-size : 20px;
+}
+
+.button5 {
+ font-size:12px;
+ padding: 10px 20px;
+ width : 100%;
+}
+
+.kiri1{
+  width:100%;
+  float:none;
+  text-align : center;
+}
+
+.kiri1 p{
+  font-family: "Mali";
+  text-align: center;
+}
+
+.kanan1{
+  width:100%;
+  float:none;
+  text-align: center;
+}
+
+.kanan1.responsif {
+	display: block;
+}
+
+.kanan1.normal {
+	display: none;
+}
+
+.kanan2{
+  width:100%;
+  float:none;
+  text-align: center;
+}
+
+.kanan2 p{
+  font-family: "Mali";
+  text-align: center;
+}
+
+.isi-left{
+  float:none;
+  width: 100%;
+  font-size: 12px;
+  color: #333333;
+}
+
+.isi-right{
+  float:none;
+  width: 100%;
+  font-size: 12px;
+  margin-top: 140px;
+  text-align : center;
+}
+
+.isi-right img{
+  width : 90px;
+}
+
+.portofolio-content h3{
+  font-size : 12px;
+  padding : 10px 20px;
+}
+
+.lesson-wrapper{
+	width: 100%;
+}
+
+.lesson {
+  float: none;
+  width: 100%;
+}
+
+.text-contents {
+  width: 100%;
+  font-size: 12px;
+  height: 70px;
+}
